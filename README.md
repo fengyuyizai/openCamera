@@ -1,11 +1,11 @@
 ## 能够使用浏览器打开手机端摄像头
 
 
-#####能够前后摄像头切换，能够截取当前视频流图像
+能够前后摄像头切换，能够截取当前视频流图像
 
-#####兼容各大主流浏览器，
+兼容各大主流浏览器，
 
-####主要使用的api：
+主要使用的api：
 ``` javascript
 
 // 获取视频流
@@ -46,7 +46,7 @@ function gotDevices(deviceInfos) {
 }
 ```
 
-#####兼容浏览器:
+兼容浏览器:
 
 ```javascript
 
@@ -70,7 +70,7 @@ function getUserMedia(constrains,success,error){
 ```
 
 
-#####获取视频流成功回调：
+获取视频流成功回调：
 ```javascript
 
 function getStream(){
@@ -104,7 +104,7 @@ function getStream(){
 
 ```
 
-#####截取视频流作为图片：
+截取视频流作为图片：
 
 ```javascript
 
