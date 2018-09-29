@@ -1,9 +1,9 @@
 ## 能够使用浏览器打开手机端摄像头
 
 
-*能够前后摄像头切换，能够截取当前视频流图像
+#####能够前后摄像头切换，能够截取当前视频流图像
 
-*兼容各大主流浏览器，
+#####兼容各大主流浏览器，
 
 ####主要使用的api：
 ``` javascript
@@ -23,7 +23,7 @@ navigator.mediaDevices.enumerateDevices().then(gotDevices).then(getStream).catch
 但是这个错开始并没有报，开始我直接运行获取视频流代码，项目的代码仿佛停止运行一般，相应位置的console.log也没有输出，这个错误也没有报
 后来经过调试，获取视频流的代码放在点击事件中，错误才出来。。
 
-*切换摄像头代码：
+#####切换摄像头代码：
 
 ```javascript
 // 多选框更改事件
@@ -46,7 +46,7 @@ function gotDevices(deviceInfos) {
 }
 ```
 
-*兼容浏览器:
+#####兼容浏览器:
 
 ```javascript
 
@@ -70,7 +70,7 @@ function getUserMedia(constrains,success,error){
 ```
 
 
-*获取视频流成功回调：
+#####获取视频流成功回调：
 ```javascript
 
 function getStream(){
@@ -104,7 +104,7 @@ function getStream(){
 
 ```
 
-*截取视频流作为图片：
+#####截取视频流作为图片：
 
 ```javascript
 
